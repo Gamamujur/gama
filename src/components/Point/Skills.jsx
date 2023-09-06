@@ -113,7 +113,7 @@ const Skills = () => {
             <div className="w-full lg:flex lg:p-10">
               <div className="items-center lg:w-1/2 lg:flex lg:flex-col">
                 <h1 className="p-2 text-xl font-semibold text-center lg:text-left font-mons">
-                  Experienced (&gt;=1 YoE)
+                  Experienced ( &ge; 1 YoE)
                 </h1>
                 <div className="flex flex-wrap justify-center gap-4 p-3 pt-5 lg:justify-normal">
                   {svgicon.experienced.icon.map((icon, index) => (
@@ -136,7 +136,7 @@ const Skills = () => {
             <div className="w-full lg:flex lg:p-10">
               <div className="items-center lg:w-1/2 lg:flex lg:flex-col">
                 <h1 className="p-2 text-xl font-semibold text-center lg:text-left font-mons">
-                  Beginner (&gt;=1 YoE)
+                  Beginner ( &lt; 1 YoE)
                 </h1>
                 <div className="flex flex-wrap justify-center gap-4 p-3 pt-5 lg:justify-normal">
                   {svgicon.beginner.icon.map((icon, index) => (
