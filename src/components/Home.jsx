@@ -22,7 +22,7 @@ const containervar2 = {
   initial: {},
   animate: {
     transition: {
-      delayChildren: 3.5,
+      delayChildren: 2.5,
       staggerChildren: 0.5,
     },
   },

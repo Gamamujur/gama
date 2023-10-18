@@ -9,6 +9,8 @@ import mysqlsvg from "../../assets/SVG/oracle-mysql-logos-idSEhEKy8_.svg";
 import laravelsvg from "../../assets/SVG/laravel-svgrepo-com (1).svg";
 import reactsvg from "../../assets/SVG/react-javascript-js-framework-facebook-svgrepo-com (1).svg";
 import nextjs from "../../assets/SVG/next-js-svgrepo-com.svg";
+import typescriptsvg from "../../assets/SVG/typescript-icon-svgrepo-com.svg"
+import mongosvg from "../../assets/SVG/mongodb-svgrepo-com.svg"
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 
@@ -55,9 +57,8 @@ const Skills = () => {
     },
 
     beginner: {
-      icon:[reactsvg,nextjs],
-      desc:`I'm currently in the early stages of exploring React and Next.js. While I'm in the process of mastering these technologies, I'm excited to leverage their capabilities to build dynamic and interactive user interfaces.`
-    
+      icon:[reactsvg,nextjs,typescriptsvg,mongosvg],
+      desc:`I'm currently in the early stages of exploring NextJS, and ReactJS with MERN stack using TypeScript. While I'm in the process of mastering these technologies, I'm excited to leverage their capabilities to build dynamic and interactive web apps.`
     },
   };
 
