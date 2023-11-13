@@ -18,7 +18,7 @@ const contvar = {
   initial:{},
   animate:{
     transition:{
-      delayChildren:2,
+      delayChildren:0.5,
       staggerChildren:1
     }
   },
@@ -65,24 +65,26 @@ const Skills = () => {
 
   const skillcont = {
     initial: {
-      width: 2,
-      height: 0,
+      opacity: 0
+      // width: 2,
+      // height: 0,
     },
     animate: {
-      width: "var(--width-to)",
-      height: "90%",
+      // width: "var(--width-to)",
+      // height: "90%",
+      opacity:1,
       transition: {
         delayChildren:0.5,
         staggerChildren:0.5,
-        delay: 1,
-        width: { delay: 1.5 },
-        height: { duration: 0.5 },
+        
+        // width: { delay: 1.5 },
+        // height: { duration: 0.5 },
       },
     },
     exit: {
       width: 0,
       transition: {
-        delay:1,
+        delay:0.5,
         staggerChildren:0.2
       },
     },
@@ -106,7 +108,7 @@ const Skills = () => {
           </motion.span>
         </div>
         <motion.div
-          className="self-center [--width-to:100%] lg:[--width-to:80%] rounded-lg bg-neutral-600 p-1 overflow-y-scroll skillcont flex-col gap-4 flex md:justify-center"
+          className="flex flex-col self-center h-full gap-4 p-1 overflow-y-scroll rounded-lg w-fit bg-neutral-600 skillcont md:justify-center"
           variants={skillcont}
          
         >
